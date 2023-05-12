@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Montserrat;
 }
 
 /* headear */
@@ -73,12 +76,67 @@ section .primer-contenedor{
 /* segunda seccion */
 
 
+
 .segundo-contenedor{
-    margin-top: 6em;
-    display: flex;
+    display: block;
     justify-content: space-around;
+    width: 100%;
+    height: 80vh;    
+    background: linear-gradient(45deg,#c443c9,#7462ff,#9521f4);
+    box-shadow: 1px 3px 6px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.segundo-contenedor .item{
+    margin-top: 3em;
+    display: flex;
+    justify-content:space-around
 }
 
 .segundo-contenedor .card{
     box-shadow: 1px 3px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.segundo-contenedor{
+    margin-top: 6em;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* tercer contenedor */
+
+
+
+
+.tercer-contenedor-items{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+
+
+.tercer-contenedor-items .img-tercer-contenedor img{
+    margin-top: 3em;
+    margin-right: 1em;
+    margin-left: 2em;
+    border-radius: 1em;
+    box-shadow: 1px 3px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.tercer-contenedor h3{
+    margin-top: 5em;
+    color: #7462ff;
+    text-align: center;
+}
+
+
+
+.tercer-contenedor .text-tercer-contenedor{
+     margin-top: 6em;
+     margin-left: 2em;
 }
