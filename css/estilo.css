@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
+    
 *{
     margin: 0;
     padding: 0;
@@ -7,10 +9,14 @@
     font-family: Montserrat;
 }
 
+
+
 /* headear */
 
 .contenedor-header{
     display:flex;
+    justify-content:space-between;
+    align-items: center;
     width: 100%;
     height: 20vh;    
     background: linear-gradient(45deg,#A70CA7,#170E47,#9521f4);
@@ -267,4 +273,6 @@ img:hover{
    color: #7462ff;;
 }
 
+
+/* Modo nocturno */
 
