@@ -26,23 +26,24 @@
     
     <header>
         <div class="contenedor-header">
-        <div>
-            <h1>Medic Mobile</h1> 
-        </div>    
+            <div class="tittle-contenedor-header">
+                <h1>Medic Mobile</h1>
+            </div>
      <!-- arranca el menu de navegacíon -->
-        <div class="menu-header">
-            <ul class="nav nav-pills nav-fill">
-                <li class="nav-item ">
-                <a class="nav-link active" aria-current="page" href="#">Suscribite</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Sobre nosotros</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-                </li>
-            </ul>
-        </div>
+        
+            <div class="menu-header">
+                <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#">Suscribite</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-nosotros">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>   
         
     </header>
@@ -73,42 +74,48 @@
     <!-- segunda seccion / presupuesto / rendimineto / seguridad-->
     <section>
         <div class="segundo-contenedor">
-            <h3>Nuestro servicío</h3>
+                
+                <div class="contenedor-tittle-tercero">
+                    <h3>Nuestro servicío</h3>
+                </div>
+
                 <div class="item">
                     <div class="card" style="width: 20rem;">
                         <img src="img/billete-de-banco.png" class="card-img-top" alt="" >
-                    <div class="card-body">
-                    <p class="card-text">A través de nuestro formulario de presupuesto online podrás saber aproximadamente el coste de la reparación de tu dispositivo ya que nuestros precios son a medida porque no todas las reparaciones son iguales</p>
+                    
+                        <div class="card-body">
+                            <p class="card-text">A través de nuestro formulario de presupuesto online podrás saber aproximadamente el coste de la reparación de tu dispositivo ya que nuestros precios son a medida porque no todas las reparaciones son iguales</p>
+                        </div>
+                    </div>
+        
+                    <div class="card" style="width: 20rem;">
+                        <img src="img/escudo-de-seguridad.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text">Obtén el mejor rendimiento de tu equipo con nuestros componentes informáticos y accesorios de alta calidad! En nuestra tienda encontrarás todo lo que necesitas para mejorar y actualizar tu equipo.</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 20rem;">
+                        <img src="img/tornillo.png" class="card-img-top" alt="" >
+                        <div class="card-body">
+                            <p class="card-text">Mantén tus dispositivos seguros con nuestro hidrogel resistente a impactos! Protege tu smartphone de caídas y golpes con nuestra fórmula de alta resistencia que absorbe los impactos y evita daños en tu dispositivo.</p>
+                        </div>
                     </div>
                 </div>
         
-                <div class="card" style="width: 20rem;">
-                    <img src="img/escudo-de-seguridad.png" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <p class="card-text">Obtén el mejor rendimiento de tu equipo con nuestros componentes informáticos y accesorios de alta calidad! En nuestra tienda encontrarás todo lo que necesitas para mejorar y actualizar tu equipo.</p>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 20rem;">
-                    <img src="img/tornillo.png" class="card-img-top" alt="" >
-                    <div class="card-body">
-                        <p class="card-text">Mantén tus dispositivos seguros con nuestro hidrogel resistente a impactos! Protege tu smartphone de caídas y golpes con nuestra fórmula de alta resistencia que absorbe los impactos y evita daños en tu dispositivo.</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
     <!-- tercera seccion / sobre nosotros -->
     <section id="sobre-nosotros">
         <div class="tercer-contenedor">
-            <h3>Sobre nosotros</h3>
+            <h3 class = "animate__animated animate__bounceInLeft">Sobre nosotros</h3>
         <div class="tercer-contenedor-items">
             <div class="img-tercer-contenedor">
                 <img src="img/fondo-principal.jpg" width="700px" height="400" alt="">
             </div>
             <div class="text-tercer-contenedor">
-                <p>
+                <p class="animate__animated animate__bounceInLeft">
                     Desde nuestros inicios, nos hemos comprometido a brindar un servicio de alta calidad y confiable. Nuestro equipo de expertos en reparación cuenta con años de experiencia y está altamente capacitado en las últimas técnicas y herramientas de reparación. Nos enorgullece poder ofrecer reparaciones precisas, eficientes y rápida, asegurando que su dispositivo funcione como nuevo.
                     En nuestra empresa, creemos que la satisfacción del cliente es lo más importante. Es por eso que nos esforzamos por brindar un servicio excepcional en cada paso del camino. Desde la evaluación inicial del dispositivo hasta la entrega final, nos aseguramos de que el proceso de reparación sea lo más fácil y conveniente posible para nuestros clientes.        
                 </p>
@@ -121,26 +128,27 @@
     <!-- cuarta seccion / contacto -->
     <section id="contacto">
         <div class="cuarto-contenedor">
-            <div class="title-cuarto">
+            <div class="text-cuarto-contenedor">
                 <h3>Contacto</h3>
+                <p>
+                    Podes contactarnos mediante nuestras redes sociales, las cuales subimos a diario nuestra disponibilidad y los trabajos realizados.
+                </p>
             </div>
-            <p>
-                Podes contactarnos mediante nuestras redes sociales, las cuales subimos a diario nuestra disponibilidad y los trabajos realizados.
-            </p>
+            
             <div class="img-redes">
                 <img src="img/facebook.png" width="32px" alt="">
                 <img src="img/instagram.png" width="32px"  alt="">
                 <img src="img/whatsapp.png" width="32px" alt="">
             </div>
-
+         
             <div class="ubicacion-cuarto">
                 <h3>Ubicación</h3>
-            </div>
-            <p>
-               Tambíen podes pasar por nuestra sucursal ubicada en  <strong> Avenida Vergara 1940, Hurlingham, Villa tesei</strong>
-            </p>
+                <p>
+                    Tambíen podes pasar por nuestra sucursal ubicada en  <strong> Avenida Vergara 1940, Hurlingham, Villa tesei</strong>
+                </p>
             <div class="iframe-cuarto">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.374995329789!2d-58.636382525003306!3d-34.61996275835502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8daaf1b2327%3A0x2700ae61072e50a5!2sAv.%20Gdor.%20Vergara%201940%2C%20Villa%20Tesei%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1683857045239!5m2!1ses-419!2sar" width="700" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.374995329789!2d-58.636382525003306!3d-34.61996275835502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8daaf1b2327%3A0x2700ae61072e50a5!2sAv.%20Gdor.%20Vergara%201940%2C%20Villa%20Tesei%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1683857045239!5m2!1ses-419!2sar" width="700" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
             </div>
         </div>
     </section>
@@ -162,7 +170,7 @@
            
             <div class="item-dos">
                 <ul>
-                  <li> <a href="#">Suscribite</a> </li>
+                  <li> <a href="#suscribete">Suscribite</a> </li>
                   <li> <a href="#sobre-nosotros">Sobre nosotros</a> </li>
                   <li> <a href="#contacto">Contacto</a> </li>
                   <li> <a href="#contacto">Copyright</a> </li>
@@ -171,18 +179,5 @@
         </div>
        
     </footer>
-
-
-
-
-
-
-
-
-    </footer>
-
-
-
-
 </body>
 </html>

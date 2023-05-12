@@ -10,6 +10,7 @@
 /* headear */
 
 .contenedor-header{
+    display:flex;
     width: 100%;
     height: 20vh;    
     background: linear-gradient(45deg,#A70CA7,#170E47,#9521f4);
@@ -18,30 +19,31 @@
     z-index: 100; */
 }
 
-.contenedor-header  h1{
-    margin-left: 1em;
+.contenedor-header .tittle-contenedor-header h1{
+    margin-left: 1.5em;
     color: white;
+    margin-top: 2em;
 }
 
 
 /* menu de navegacíon */
 
-.menu-header{
+.contenedor-header .menu-header {
     box-shadow: 1px 0px 7px 6px rgba(0, 0, 0, 0.5);
-    margin-left: 40em;
-    margin-top: 2em;
+    margin-left: 25em;
+    margin-top: 5em;
+    padding-right:12em;
 }
-
 
 .menu-header a.nav-link.active{
     background: rgb(236, 119, 76);
     box-shadow: 1px 5px 7px 3px rgba(0, 0, 0, 0.5);
-
-
+    padding-right: 1em;
 }
 
 .menu-header a.nav-link{
     color: white;
+    margin-left: 1em;
 }
 
 
@@ -50,13 +52,10 @@
 section .primer-contenedor{
     display: flex;
     justify-content: space-around;
-    margin-top: 2em;
-
-
 }
 
 .primer-contenedor .img-principal img{
-    margin-top: 3em;
+    margin-top: 4em;
     margin-left: 7em;
     border-radius: 1em;
     box-shadow: 1px 3px 6px 6px rgba(0, 0, 0, 0.5);
@@ -85,19 +84,34 @@ img:hover{
     margin-right: 10em;
 }
 
+
+
+
+
+
+
 /* segunda seccion */
 
 
 
 .segundo-contenedor{
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     width: 100%;
-    height: 110vh;    
+    height: 130vh;    
     background: linear-gradient(45deg,#A70CA7,#170E47,#9521f4);
     box-shadow: 1px 3px 6px 6px rgba(0, 0, 0, 0.5);
-
+    margin-top: 9em
 }
+
+
+.segundo-contenedor .contenedor-tittle-tercero h3{
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+}
+
 
 .segundo-contenedor .item{
     margin-top: 3em;
@@ -106,14 +120,11 @@ img:hover{
 }
 
 .segundo-contenedor .card{
+    margin-top: 1em;
     box-shadow: 1px 3px 6px 6px rgba(0, 0, 0, 0.5);
 }
 
-.segundo-contenedor{
-    margin-top: 6em;
-    color: white;
-    text-align: center;
-}
+
 
 
 
@@ -160,26 +171,31 @@ img:hover{
 /* cuarto contenedor */
 
 .cuarto-contenedor{
+    margin-top: 7em;
     width: 100%;
-    height: 120vh;    
+    height: 140vh;    
     background: linear-gradient(45deg,#A70CA7,#170E47,#9521f4);
     box-shadow: 1px 3px 6px 6px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
 }
 
 
-.cuarto-contenedor  .title-cuarto h3{
+.cuarto-contenedor .text-cuarto-contenedor{
+    margin-top:3em ;
+}
+
+.cuarto-contenedor .text-cuarto-contenedor h3{
+    color:white;
     text-align: center;
-    margin-top: 6em;
-    color: white;
 }
-
 
 
 
 .cuarto-contenedor  .ubicacion-cuarto h3{
     margin-top: 3em;
+    color: white;   
     text-align: center;
-    color: white;
 }
 
 
@@ -194,7 +210,12 @@ img:hover{
 .cuarto-contenedor .iframe-cuarto{
     margin-top: 3em;
     margin-left: 22em;
+    border-radius: 3em;
+
 }
+
+
+
 
 .cuarto-contenedor .img-redes{
     display: flex;
@@ -215,18 +236,31 @@ img:hover{
 .contenedor-footer{
     display: flex;
     justify-content: center;
-    margin-top: 8em;
 }
+
+.contenedor-footer .icon-footer img{
+    margin-top: 3.5em;
+    margin-right: 2em;
+}
+
+
+
 
 .contenedor-footer .item-uno h3{
     color: #7462ff;
+    margin-top: 2em;
 }
 
 .contenedor-footer .item-dos ul{
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.8em;
 }
 
-.contenedor-footer .item-dos ul li a:link{color: #7462ff;}
+.contenedor-footer .item-dos ul li{
+    margin-left: 2em;
+}
 
 
 
@@ -235,34 +269,47 @@ img:hover{
 
 
 
-
-
-
-
+/* fondo para modo oscuro 
+background: linear-gradient(45deg,#1a0650,#000000,#000000);
+ */
 /* 
-.example {
-    padding: 20px;
-    color: white;
-    }
-    Extra small devices (600px and down) */
-    /* @media only screen and (max-width: 600px) {
+
+ADAPTACÍON A OTRAS PANTALLAS 
+
+
+*/
+
+
+
+1341 x 623 
+
+
+    /* Extra small devices (600px and down) */
+    @media only screen and (max-width: 600px) {
     .example {background: red;}
-    } */
+    }
     /* Small devices (600px and up) */
-    /* @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 600px) {
     .example {background: green;}
-    } */
+    }
     /* Medium devices (768px and up) */
-    /* @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 768px) {
     .example {background: blue;}
-    } */
+    }
     
     /* Large devices (992px and up) */
-    /* @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: 992px) {
     .example {background: orange;}
-    } */
+    }
     /* Extra large devices (1200px and up) */
-    /* @media only screen and (min-width: 1200px) {
+    @media only screen and (min-width: 1200px) {
     .example {background: pink;}
-    } */
- 
+    }
+
+
+
+  Hasta 600 px: Fondo rojo
+- Desde 600 px: Fondo verde
+- Desde 768 px: Fondo azul
+- Desde 992 px: Fondo naranja
+- Desde 1200 px: Fondo rosa
