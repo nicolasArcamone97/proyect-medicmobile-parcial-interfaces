@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-    
-*{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Montserrat;
+    font-family: Montserrat !important;
 }
 
 
 
+
 /* headear */
+
+
 
 .contenedor-header{
     display:flex;
@@ -19,11 +21,21 @@
     align-items: center;
     width: 100%;
     height: 20vh;    
-    background: linear-gradient(45deg,#A70CA7,#170E47,#9521f4);
+    background: linear-gradient(45deg,#A70CA7,#170E47);
     box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
     /* position: fixed;
     z-index: 100; */
 }
+
+.contenedor-header .boton{
+    margin-left: 1em;
+    margin-top: 4em;
+    
+
+
+}
+
+
 
 .contenedor-header .tittle-contenedor-header h1{
     margin-left: 1.5em;
@@ -46,6 +58,7 @@
     box-shadow: 1px 5px 7px 3px rgba(0, 0, 0, 0.5);
     padding-right: 1em;
 }
+
 
 .menu-header a.nav-link{
     color: white;
@@ -106,7 +119,7 @@ img:hover{
     justify-content: space-around;
     width: 100%;
     height: 130vh;    
-    background: linear-gradient(45deg,#A70CA7,#170E47,#9521f4);
+    background: linear-gradient(45deg,#A70CA7,#170E47);
     box-shadow: 1px 3px 6px 6px rgba(0, 0, 0, 0.5);
     margin-top: 9em
 }
@@ -129,7 +142,7 @@ img:hover{
     margin-top: 1em;
     box-shadow: 1px 3px 6px 6px rgba(0, 0, 0, 0.5);
 }
-
+.card:hover{ border: solid orange 2px}
 
 
 
@@ -180,7 +193,7 @@ img:hover{
     margin-top: 7em;
     width: 100%;
     height: 140vh;    
-    background: linear-gradient(45deg,#A70CA7,#170E47,#9521f4);
+    background: linear-gradient(45deg,#A70CA7,#170E47);
     box-shadow: 1px 3px 6px 6px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
@@ -276,3 +289,53 @@ img:hover{
 
 /* Modo nocturno */
 
+#boton{
+    width: 5px;
+    font-size: 30px;
+    margin-bottom: 2em;
+    cursor: pointer;
+    color: #170E47;
+}
+
+
+.darkmode{
+    background-color: #170E47 !important;
+
+}
+
+.darkmode h1 {
+    color: orange !important;
+}
+
+.darkmode h2{
+    color: orange !important;
+}
+
+.darkmode h3{
+    color: orange !important;
+}
+
+.darkmode h4{
+    color: orange !important;
+}
+
+.darkmode p{
+    color: #968ce4;
+}
+
+
+.darkmode .segundo-contenedor .item .card{
+    background-color: #170E47;
+}
+
+.darkmode strong{
+    color: orange;
+}
+
+.darkmode .menu-header a.nav-link.active{
+    color: white;
+}
+
+.darkmode .menu-header a.nav-link{
+    color: orange;
+}
