@@ -263,53 +263,8 @@ img:hover{
 }
 
 
+.contenedor-footer .item-dos ul li a:link{
+   color: #7462ff;;
+}
 
 
-
-
-
-
-/* fondo para modo oscuro 
-background: linear-gradient(45deg,#1a0650,#000000,#000000);
- */
-/* 
-
-ADAPTACÍON A OTRAS PANTALLAS 
-
-
-*/
-
-
-
-1341 x 623 
-
-
-    /* Extra small devices (600px and down) */
-    @media only screen and (max-width: 600px) {
-    .example {background: red;}
-    }
-    /* Small devices (600px and up) */
-    @media only screen and (min-width: 600px) {
-    .example {background: green;}
-    }
-    /* Medium devices (768px and up) */
-    @media only screen and (min-width: 768px) {
-    .example {background: blue;}
-    }
-    
-    /* Large devices (992px and up) */
-    @media only screen and (min-width: 992px) {
-    .example {background: orange;}
-    }
-    /* Extra large devices (1200px and up) */
-    @media only screen and (min-width: 1200px) {
-    .example {background: pink;}
-    }
-
-
-
-  Hasta 600 px: Fondo rojo
-- Desde 600 px: Fondo verde
-- Desde 768 px: Fondo azul
-- Desde 992 px: Fondo naranja
-- Desde 1200 px: Fondo rosa
