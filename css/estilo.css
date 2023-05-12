@@ -53,6 +53,7 @@ section .primer-contenedor{
     margin-top: 3em;
     margin-left: 7em;
     border-radius: 1em;
+    box-shadow: 1px 3px 6px 6px rgba(0, 0, 0, 0.5);
 }
 
 .primer-contenedor .text-primer-contenedor{
@@ -69,3 +70,15 @@ section .primer-contenedor{
     margin-right: 10em;
 }
 
+/* segunda seccion */
+
+
+.segundo-contenedor{
+    margin-top: 6em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.segundo-contenedor .card{
+    box-shadow: 1px 3px 6px 6px rgba(0, 0, 0, 0.5);
+}
